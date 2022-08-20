@@ -1,7 +1,6 @@
 package org.iamflinks.javachallenge;
 
 import java.util.HashMap;
-import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Main {
@@ -51,6 +50,9 @@ public class Main {
                 " book. It has survived not only five centuries, but also the leap\n" +
                 " into electronic typesetting, remaining essentially unchanged.\n" +
                 " It was popularised in the 1960s with the release of Letraset");
+
+        Contacts.contactList = contacts;
+        Message.messageList = messages;
 
         Phone contactInterface  = new Contacts();
         Phone messageInterface = new Message();
