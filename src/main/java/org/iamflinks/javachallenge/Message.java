@@ -9,7 +9,7 @@ public class Message implements Phone {
     @Override
     public void show() {
         for (String names : messageList.keySet()) {
-            System.out.println("Name: " + names + " Message contact: " + messageList.get(names));
+            System.out.println("Name: " + names + " Message content: " + messageList.get(names));
         }
     }
 

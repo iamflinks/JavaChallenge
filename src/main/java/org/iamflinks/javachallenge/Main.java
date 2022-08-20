@@ -77,6 +77,7 @@ public class Main {
             }
             // Quit the app is 3 or number less than 1 is entered
             if (option >= 3) {
+                System.out.println("Thank you for using the Phone App!");
                 isQuit = true;
             }
             else if (option==1) {
